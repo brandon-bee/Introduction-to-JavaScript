@@ -157,22 +157,21 @@ HINT: Remember that the order in which we pass in our arguments matters when it 
 */
 let choice = Math.random();
 if(choice >= 0.66){
-  choice = 'Rock';
+  choice = 'rock';
 }else if(choice >= 0.33){
-  choice = 'Paper';
+  choice = 'paper';
 }else{
-  choice = 'Scissors';
+  choice = 'scissors';
 }
 function game(user, computer){
-  if((user === 'Rock' && computer === 'Scissors') || (user === 'Paper' && computer === 'Rock') || (user === 'Scissors' && computer === 'Paper')){
+  if((user === 'rock' && computer === 'scissors') || (user === 'paper' && computer === 'rock') || (user === 'scissors' && computer === 'paper')){
     return "you win!";
-  }else if((user === 'Rock' && computer === 'Paper') || (user === 'Paper' && computer === 'Scissors') || (user === 'Scissors' && computer === 'Rock')){
+  }else if((user === 'rock' && computer === 'paper') || (user === 'paper' && computer === 'scissors') || (user === 'scissors' && computer === 'rock')){
     return "you lose!";
-  }else if((user === 'Rock' && computer === 'Rock') || (user === 'Paper' && computer === 'Paper') || (user === 'Scissors' && computer === 'Scissors')){
+  }else if((user === 'rock' && computer === 'rock') || (user === 'paper' && computer === 'paper') || (user === 'scissors' && computer === 'scissors')){
     return "it's a tie";
   };
 }
-game('Rock', choice);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -216,8 +215,8 @@ Using the annoyingSong function below do the following:
     "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
-      /*add your code here*/
+function annoyingSong(start){
+      
 }
 
 
