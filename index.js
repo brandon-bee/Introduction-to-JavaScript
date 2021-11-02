@@ -170,7 +170,7 @@ function game(user, computer){
     return "you lose!";
   }else if((user === 'rock' && computer === 'rock') || (user === 'paper' && computer === 'paper') || (user === 'scissors' && computer === 'scissors')){
     return "it's a tie";
-  };
+  }
 }
 
 
@@ -216,8 +216,8 @@ Using the annoyingSong function below do the following:
 */
 
 function annoyingSong(start){
-  while(start > 0){
-    return start + " bottles of soda on the wall, " + start + " bottles of soda, take one down pass it around " + (start - 1) + " bottles of soda on the wall";
+  for(let i = start; i > 0; i--){
+    return i + " bottles of soda on the wall, " + i + " bottles of soda, take one down pass it around " + (i - 1) + " bottles of soda on the wall";
   }
 }
 
@@ -266,7 +266,7 @@ HINT - try looking up the .includes() method
 */
 
 
-function vowelCounter(/*add your code here*/) {
+function vowelCounter(phrase) {
   /*add your code here*/
 }
 
